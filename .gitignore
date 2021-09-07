@@ -1,3 +1,8 @@
+# you will need to train the models
+aitextgen/
+
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
