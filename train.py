@@ -1,6 +1,6 @@
 from aitextgen.TokenDataset import TokenDataset
 from aitextgen.tokenizers import train_tokenizer
-from aitextgen.utils import GPT2ConfigCPU
+from aitextgen.utils import GPTNeoConfig
 from aitextgen import aitextgen
 
 if __name__ == '__main__':
@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # GPT2ConfigCPU is a mini variant of GPT-2 optimized for CPU-training
     # e.g. the # of input tokens here is 64 vs. 1024 for base GPT-2.
-    config = GPT2ConfigCPU()
+    config = GPTNeoConfig()
 
     # Instantiate aitextgen using the created tokenizer and config
     ai = aitextgen(tokenizer_file=tokenizer_file, config=config)
