@@ -8,6 +8,7 @@ From https://github.com/minimaxir/aitextgen
 python3 -m venv env
 source env/bin/activate
 which python
+pip install --upgrade pip
 pip3 install aitextgen
 deactivate
 ```
@@ -20,5 +21,5 @@ See the various Python scripts, or using the defaults via the shell:
 
 ### MBP benchmark
 
-training shakes started at 19:40, %CPU ~155
-    finished around 21:00
+On MBP, training shakes took ~80 minutes with %CPU ~155.
+On new Mac Mini took ~30 minutes with %CPU ~169.
