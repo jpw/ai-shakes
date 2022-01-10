@@ -1,5 +1,5 @@
 {
-    "tmp": [
+    "tmp": 
         {
     "layout": {
         "template": "home"
@@ -11,6 +11,6 @@
         "baz"
     ]
         }
-    ]
+  
 }
 
