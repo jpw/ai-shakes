@@ -1,0 +1,13 @@
+{
+  "tmp": {
+    "layout": {
+      "template": "home"
+    },
+    "title": "Hello Remote World!",
+    "list": [
+      "foo",
+      "bar",
+      "baz"
+    ]
+  }
+}
